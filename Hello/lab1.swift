@@ -74,13 +74,13 @@ func question2(){
 func question3(){
     // Right to left
     var result: Double = 0
-    for i in (1...5000).reversed() {
+    for i in (1...50000).reversed() {
         result += 1/Double(i)
     }
     print("Result for right to left: \(result)")
     // Left to right
     result = 0
-    for i in 1...5000 {
+    for i in 1...50000 {
         result += 1/Double(i)
     }
     print("Result for left to right: \(result)")
