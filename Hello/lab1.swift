@@ -88,9 +88,9 @@ func question3(){
 
 // Question 4
 func question4(){
-    var resultX: Double = 0
+    var result: Double = 0
     for i in (2...625).reversed(){
-        resultX += 1/(sqrt(Double(i)-1)+sqrt(Double(i)))
+        result += 1/(sqrt(Double(i)-1)+sqrt(Double(i)))
     }
-    print("\(resultX)")
+    print("\(result)")
 }
